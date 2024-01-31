@@ -1,0 +1,360 @@
+body {
+	min-height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #e8eaf6;
+}
+
+.container {
+	padding: 0 2rem;
+}
+.brand-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+	font-weight: 900;
+	
+}
+.employee  {
+	min-height: 100vh;
+	display: grid;
+	grid-gap:0.6rem;
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 300px 1fr;
+	
+}
+.employee > header {
+	grid-column: 1 / span 2;
+	background-color: #80cbc4;
+	color: white;
+	display: flex;
+	justify-content: space-between;	
+	padding:  0 0.6rem;
+}
+.employee > aside {
+	margin: 0 0 0.6rem 0.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1.6rem;
+}
+.employee > section {
+	margin: 0 0.6rem 0.6rem 0;
+	padding: 1.6rem;
+	
+}
+
+.view-title {
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: #00695c;
+	margin-bottom: 1.5rem;
+}
+header > nav {
+	display: flex;	
+}
+
+header > nav > a.active {
+	font-weight: 700;
+	color: black;
+	
+}
+header > nav > a:hover {
+	background-color: #4ebaaa;
+}
+
+
+header > nav > a {
+	color: white;
+	font-weight: 200;
+	text-decoration: none;
+	padding: 0 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.box {
+	background-color: white;
+	border-radius: 0.5rem;
+}
+.profile-img {
+	width: 220px;
+	margin: 20px;
+}
+.user-name {
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: #003d33;
+	padding-top: 1px;
+}
+
+.user-role {
+	font-weight: 700;
+	color: #4ebaaa;
+	text-transform: uppercase;
+	
+}
+.user-actions {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 0;
+	align-self: stretch;
+}
+.user-actions > a {
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+.user-actions > a:hover {
+	background-color: #009688;	
+	color: white;
+}
+.shadow {
+	box-shadow: 1px 1px 2px gray;
+}
+
+.rounded {
+	border-radius: 2rem;
+}
+.container {
+	padding: 0 2rem;
+}
+
+
+.anonymous {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.card {
+	width: 480px;
+	padding: 1rem 2rem 2rem 2rem;
+	background-color: #e3f2fd;
+	border-radius: 0.4rem;	
+	box-shadow: 2px 2px 4px #6ab7ff;
+}
+
+.w-480 {
+	width: 480px;
+}
+
+
+.form-title {
+	
+	display: flex;
+	align-items: center;
+	
+}
+
+label {
+	color: gray;
+	font-size: 0.8rem;
+}
+
+select, input {
+	padding: 0.5rem;
+}
+
+
+select, input, .btn {
+	background-color: transparent;
+	color: black;
+	border: solid 1px #439889;
+	border-radius: 0.2rem;
+	font-size: 0.8rem;
+	outline:none;
+}
+
+.btn{
+	padding: 0.5rem 2rem;
+	text-transform: uppercase;
+	text-decoration: none;		
+}
+.btn-e {
+	padding: 0.3rem 2rem;
+}
+
+
+.btn:hover{
+	background-color: #4ebaaa;
+	color: white;
+	cursor: white;
+}
+.message {
+	color: red;
+	font-size: 0.9rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+.form label {
+	margin-bottom: 0.2rem;	
+}
+.form-inline {
+	display: flex;
+	margin-bottom: 1rem;
+	align-content: stretch;
+}
+.form-inline .form-group {
+	display: flex;
+	margin-right: 0.6rem;
+	align-items: center;
+}
+
+.balance-action {
+	display: flex;
+	flex-direction: row;
+	margin: 1rem 0;
+	justify-content: flex-end;
+	
+	
+	
+}
+
+.user-actions {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 0;
+	align-self: stretch;
+}
+
+.form .form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.6rem;
+}
+.form .row {
+	display: flex;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+td {
+	border-bottom: 1px solid #26a69a;	
+}
+th {
+	border-bottom: 2px solid #26a69a;	
+}
+td, th {
+	padding: 0.6rem;
+	text-align: left;
+	font-size: 0.9rem;
+}
+thead th {
+	background-color: #80cbc4;
+}
+tr:hover {
+	background-color: #b2dfdb;
+}
+tr:nth-child(even) {
+	background-color: #e0f2f1;
+}
+
+.mr-4 {
+	margin-right: 4px;
+}
+.ml-4 {
+	margin-left: 4px;
+}
+
+.balance-summary {
+	display: grid;
+	grid-template-columns: 80px 1fr 80px 1fr 80px 1fr;
+	grid-row-gap: 4px;
+	align-items: center;
+}
+.balance-summary > label {
+	text-align: right;
+	padding-right: 4px;
+}
+
+.pad-top-1rem {
+	padding-top: 1rem;
+}
+
+.w-num-input {
+	width: 100px;
+}
+.icon {
+	display: inline-block;
+	height: 1.2rem;
+	width: 1.2rem;
+}
+.icon-left {
+	margin-right: 0.4rem;
+}
+
+.icon-home {
+	height: 1.5rem;
+	width: 1.5rem;
+	padding-bottom: 0.2rem;
+}
+.icon-btn {
+	display: flex;
+	align-items: center;
+}
+
+table input {
+	width: 97%;
+}
+
+
+table input[type='number'] {
+	width: 90%;
+}
+
+#profileImageForm {
+	display: none;
+}
+#dash-summary {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 1rem;
+}
+#dash-summary > div {
+	box-shadow: 1px 1px 2px gray;
+	padding: 0 1rem 1rem 1rem;
+	border-radius: 0.4rem;
+	background-color: teal;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+#dash-summary > div > span {
+	font-size: 1.8rem;
+}
+#dash-summary > div > h3 {
+	color: white;
+}
+
+#dash-tops {
+	margin-top: 1.5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1rem;
+}
+#dash-tops > div {
+	padding: 0 1rem 1rem 1rem;
+	border: 0.5px solid gray;
+	border-radius: 0.4rem;
+	
+}
+
+
+
+
